@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drag and Drop Example</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <button id="deleteButton">はじめから</button>
+  <button id="undoButton">Undo</button>
+  <button id="redoButton">Redo</button>
+  <div class="droppable-area-container">
+    <div class="droppable-area" id="droppable">Drop here!</div>
+
+  </div>
+  <div class="flex">
+    <div class="draggable" draggable="true">あ
+    </div>
+    <div class="draggable" draggable="true">い
+    </div>
+    <div class="draggable" draggable="true">う
+    </div>
+  </div>
+<script src="js/app.js"></script>
+<script src="js/test.js"></script>
+</body>
+</html>
